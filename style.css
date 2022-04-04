@@ -1357,3 +1357,7 @@ html {
   -webkit-filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
           filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%) contrast(87%);
 }
+
+.header__lang{
+  margin-right: 20px;
+}
