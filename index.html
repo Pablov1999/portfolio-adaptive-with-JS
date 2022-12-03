@@ -166,11 +166,11 @@
                     <div class="contacts-forniture__header tittle">
                         <h2 data-i18="contact-me">Contact me</h2>
                     </div>
-                    <form action="#" method="get" class="contacts-forniture__form">
-                        <input class="contacts-input" data-i18="e-mail" placeholder="E-mail" type="email">
-                        <input class="contacts-input" data-i18="phone" placeholder="Phone" type="tel">
-                        <textarea class="contacts-input" data-i18="message" placeholder="Message" name="message" cols="30" rows="10" readonly></textarea>
-                        <button class="button-theme" type="submit" data-i18="send-message">Send message</button>
+                    <form action="sandmail.php" method="POST" class="contacts-forniture__form">
+                        <input class="contacts-input" data-i18="e-mail" placeholder="email" name="email" type="email" maxlength = "50" required>
+                        <input class="contacts-input" data-i18="phone" placeholder="phone" name="phone" type="tel">
+                        <textarea class="contacts-input" data-i18="message" placeholder="Message" name="message" cols="30" rows="10" maxlength = "50" required></textarea>
+                        <button class="button-theme" type="submit" data-i18="send-message" value = "отправить письмо">Send message</button>
                     </form>
                 </div>
             </div>
@@ -183,7 +183,7 @@
                     <span>©</span><span>2022</span><a target="_blank" href="https://github.com/Pablov1999">github</a>
                 </div>
                 <div class="footer-furniture__school">
-                    <a target="_blank" href="https://rs.school/js-stage0/">Rolling Scopes School</a>
+                    <a target="_blank" href="https://github.com/Pablov1999?tab=repositories">Pablo99</a>
                 </div>
                 <ul class="footer-furniture__socialnetworks">
                     <li><a target="_blank" href="https://www.instagram.com/"><img src="assets/svg/inst.svg"
